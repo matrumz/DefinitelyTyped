@@ -42,6 +42,7 @@ declare class Transaction {
 interface DatabaseOptions {
 	memory?: boolean;
 	readonly?: boolean;
+	fileMustExist?: boolean;
 }
 
 interface RegistrationOptions {
